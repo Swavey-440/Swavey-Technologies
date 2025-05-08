@@ -674,8 +674,12 @@ footer {
 
 .swavey-logo {
   font-size: 35px;
-  margin-bottom: 8px;
   letter-spacing: 2px;
+}
+
+.swavey-motto {
+  margin-top: 16px;
+  line-height: 24px;
 }
 
 .navigation a {
@@ -687,6 +691,10 @@ footer {
 
 .navigation a:hover {
   color: #7c3aed;
+}
+
+.work-hours p {
+  line-height: 24px;
 }
 
 .socials {
@@ -716,6 +724,10 @@ footer {
 
 .get-in-touch-hidden {
   display: none;
+}
+
+.get-in-touch-hidden .data div span {
+  line-height: 24px;
 }
 
 .copy-right {
@@ -763,7 +775,6 @@ footer {
     right: 0;
   }
 }
-
 
 /* Extra small screen (phones) */
 @media (max-width: 575px) {
@@ -1297,9 +1308,8 @@ footer {
   }
   
   .get-in-touch-hidden .data {
-    display: grid;
-    grid-template-columns: 1fr 150px 148px;
-    column-gap: 30px;
+    display: flex;
+    column-gap: 20px;
   }
 
   .get-in-touch-hidden .data div {
@@ -1326,6 +1336,10 @@ footer {
     font-size: 20px;
     width: 450px;
     margin-top: -6px;
+  }
+
+  .about .text {
+    font-size: 16px;
   }
 
   .testimonial .intro {
@@ -1560,8 +1574,7 @@ footer {
   }
   
   .get-in-touch-hidden .data {
-    display: grid;
-    grid-template-columns: 1fr 170px 170px;
+    display: flex;
     column-gap: 20px;
   }
 
@@ -1577,6 +1590,10 @@ footer {
 
 /* Large screen (laptops) */
 @media (min-width: 992px) and (max-width: 1199px) {
+  * {
+    font-size: 16px;
+  }
+
   .toogled-nav {
     display: none;
   }
@@ -1694,6 +1711,10 @@ footer {
     justify-content: space-between;
     text-align: left;
     column-gap: 60px;
+  }
+
+  .copy-right {
+    font-size: 14px;
   }
 }
 
