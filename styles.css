@@ -1324,7 +1324,7 @@ footer {
 
 /* Medium screen (tablets) (768 - 992) */
 @media (min-width: 768px) and (max-width: 992px) {
-  * {
+  body {
     font-size: 16px;
   }
 
@@ -1590,7 +1590,7 @@ footer {
 
 /* Large screen (laptops) */
 @media (min-width: 992px) and (max-width: 1199px) {
-  * {
+  body {
     font-size: 16px;
   }
 
